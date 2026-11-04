@@ -7,7 +7,7 @@ Terraform module that manages OCI DNS zones: primary or secondary, global or pri
 ```hcl
 module "dns" {
   source  = "blissflow-tech/dns/oci"
-  version = "~> 1.0"
+  version = "~> 1.1"
 
   compartment_id = var.compartment_id
 
